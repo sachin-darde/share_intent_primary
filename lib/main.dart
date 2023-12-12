@@ -54,11 +54,12 @@ class _MyAppState extends State<MyApp> {
       home: Scaffold(
         appBar: AppBar(
           title: const Text('Plugin example app'),
+          backgroundColor: Colors.pink,
         ),
         body: Center(
           child: Container(
             margin: const EdgeInsets.symmetric(horizontal: 24),
-              child: Text('Sharing data: \n${list?.join("\n\n")}\n')),
+              child: Text('Sharing data (Primary App): \n${list?.join("\n\n")}\n')),
         ),
       ),
     );
